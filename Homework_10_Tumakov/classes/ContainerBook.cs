@@ -19,7 +19,7 @@ namespace Homework_10_Tumakov
         public delegate int CompareBooks(Book b1, Book b2);
         #endregion
 
-        #region Метод сортировки
+        #region Метод 
         public void SortBooks(CompareBooks compare)
         {
             Array.Sort(Books, (b1, b2) => compare(b1, b2));

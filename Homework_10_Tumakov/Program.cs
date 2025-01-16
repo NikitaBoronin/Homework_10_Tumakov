@@ -49,7 +49,7 @@
             var result = account1 == account2;
 
             Console.WriteLine(result); // Пример ==
-            Console.WriteLine(account1); // Пример ToString()
+            Console.WriteLine(account1); // Пример tostring()
 
             Console.WriteLine(Equals(account1, account2));
 
