@@ -21,9 +21,6 @@
             fabricAccount.RemoveHashTable(accountId1);
             Console.WriteLine("Пробуем вывести удаленный объект: ");
             fabricAccount.GetBankAccount(accountId1);
-
-
-            
         }
 
         static void Task3()
